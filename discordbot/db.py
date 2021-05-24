@@ -84,10 +84,5 @@ async def on_message(message):
     elif message.content == "kakke1":
         message.guild.voice_client.play(discord.FFmpegPCMAudio("kakke1.mp3"))
 
-    elif message.content == "LucasRevy":
-        await message.channel.send(file=discord.File("lucasrevy.png"))
-
-    elif message.content == "dare?":
-        await message.channel.send("俺はLucasRevy様だ！！")
 
 client.run("Nzc4ODMwNDIxNzc3MTg2ODE2.X7XsWg.f0JIkE0Hy_ucJ76pdi3IYkUXqcU")
